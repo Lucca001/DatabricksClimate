@@ -1,0 +1,8 @@
+# Remover valores nulos
+df = df.dropna()
+
+# Calcular média de temperatura por ano
+tendencia_temperatura = df.groupby('Ano')['Temperatura_Media'].mean()
+
+# Exibir a tendência
+display(tendencia_temperatura)
