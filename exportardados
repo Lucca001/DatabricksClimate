@@ -1,0 +1,6 @@
+# Salvar o dataset limpo em um novo arquivo
+output_path = '/dbfs/FileStore/tables/dados_climaticos_limpos.csv'
+df.to_csv(output_path, index=False)
+
+# Mostrar o caminho do arquivo para download
+print(f'Dados limpos salvos em: {output_path}')
