@@ -1,0 +1,12 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+file_path = '/dbfs/FileStore/tables/climate.csv'
+
+df = pd.read_csv(file_path)
+
+display(df.head())
+
+df.info()
+
+display(df.describe())
