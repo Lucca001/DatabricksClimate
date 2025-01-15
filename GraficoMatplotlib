@@ -1,0 +1,8 @@
+# Gráfico de tendência de temperatura ao longo dos anos
+plt.figure(figsize=(10, 6))
+plt.plot(tendencia_temperatura, marker='o', color='green')
+plt.title('Tendência de Temperatura Média por Ano')
+plt.xlabel('Ano')
+plt.ylabel('Temperatura Média (°C)')
+plt.grid(True)
+plt.show()
